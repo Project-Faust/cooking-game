@@ -1,0 +1,33 @@
+#ifndef GAME_H
+#define GAME_H
+
+#include <SDL2/SDL.h>
+
+class Game {
+	public:
+		Game();
+		~Game();
+
+		bool Initialize();
+		void Run();
+		void Cleanup();
+
+	private:
+		SDL_Window* window;
+		SDL_Renderer* renderer;
+		bool running;
+
+		void HandleEvents();
+		void Render();
+
+		int windowWidth;
+		int windowHeight;
+		bool isFullscreen;
+		float scaleX, scaleY;
+
+		void SetResolution(int width, int height);
+		void UpdateScale();
+		SDL_Rect ScaleRect(int x, int y, int w, int h);
+};
+
+#endif // GAME_H

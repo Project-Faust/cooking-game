@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/cooking_game.dir/src/main.cpp.o CMakeFiles/cooking_game.dir/src/Game.cpp.o -o cooking_game  -lSDL2 
