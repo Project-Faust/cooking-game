@@ -38,6 +38,16 @@ class Game {
 
     bool CheckCollision(float newX, float newY);
     void UpdatePlayer();
+
+    std::vector<std::unique_ptr<Customer>> customers;
+    float customerSpawnTimer;
+    float customerSpawnInterval;
+    int nextCustomerId;
+    bool tableOccupied[4];
+
+    void UpdateCustomers(float deltaTime);
+    void SpawnCustomer();
+    int FindAvailableTable();
 };
 
 #endif // GAME_H
