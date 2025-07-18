@@ -1,3 +1,0 @@
-/mnt/c/Users/pente/Documents/development-projects/cooking-game/build/CMakeFiles/cooking_game.dir
-/mnt/c/Users/pente/Documents/development-projects/cooking-game/build/CMakeFiles/edit_cache.dir
-/mnt/c/Users/pente/Documents/development-projects/cooking-game/build/CMakeFiles/rebuild_cache.dir
