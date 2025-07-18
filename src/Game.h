@@ -2,6 +2,9 @@
 #define GAME_H
 
 #include <SDL2/SDL.h>
+#include "Customer.h"
+#include <vector>
+#include <memory>
 
 class Game {
   public:
